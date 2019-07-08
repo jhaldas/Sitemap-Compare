@@ -36,7 +36,7 @@ If choosing to create your own body, still use {{Value1}} and {{Value2}} as your
 10. Go to "Settings" under your username and make sure you have URL Shortening toggled off.
 
 ### Terminal commands
-You will need to run these commands in your terminal in order to make sure everything is up to date and installed.
+You should run these commands in your terminal in order to make sure everything is up to date and installed.  However, everything should be installed if you installed Miniconda.
 ```
 sudo pip install requests
 ```
