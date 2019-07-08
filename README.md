@@ -11,7 +11,7 @@ This script was made using:
  - An <a href="https://ifttt.com/discover">IFTTT</a> account is required if you want to be emailed the list of discrepancies between sitemaps.  
  
 ## Setting up the IFTTT script
-If you want to recieve emails on any sitemap discrepancies, this section is a quick guide on how to make your own IFTTT applet.  This will be a less in depth version of another guide, found <a href="https://anthscomputercave.com/tutorials/ifttt/using_ifttt_web_request_email.html">here</a>.
+If you want to recieve emails on any sitemap discrepancies, this section is a quick guide on how to make your own IFTTT applet.  This is based off of another guide, found <a href="https://anthscomputercave.com/tutorials/ifttt/using_ifttt_web_request_email.html">here</a>.
 ### Setting up the event on IFTTT
 These steps will show you how to create your own event on IFTTT:
 1. In the drop down menu under your username, click "New Applet".
