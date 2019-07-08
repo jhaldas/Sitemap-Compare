@@ -5,3 +5,7 @@ MAX_SITEMAPS = 5 # Set this to the maximum number of sitemaps you want saved at 
 URL = "https://www.Website.com/sitemap.xml" # Set this to the URL of the sitemap
 
 SEND_EMAIL = True # Set True if you want to be emailed, False if not.
+
+EVENT_NAME = "EventName" # The name of your event on IFTTT
+
+KEY = "YourKey"  # Your IFTTT personal key
