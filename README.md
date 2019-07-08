@@ -22,20 +22,20 @@ These steps will show you how to create your own event on IFTTT:
 6. In the search field, type and select "Email", then click the result "Send me an email".
 7. Name the subject for your email, I used "XML Sitemap Notification".
 8. You can choose to create your own body, or you can copy and paste the format I have here: 
-'''
+```
 Sitemap Discrepancies:<br>
 New Links:<br>
 {{Value1}}<br><br>
 Missing Links:<br>
 {{Value2}}<br>
-'''
+```
 9. Click "Finish"
 ### Terminal commands
 You will need to run these commands in your terminal in order to make sure everything is up to date and installed.
-'''
+```
 sudo pip install requests
 sudo apt-get install python-dev libffi-dev libssl-dev
 sudo pip install --upgrade ndg-httpsclient
-'''
+```
 ### Editing the code
 This section will explain what you need to change in your code in order to run your IFTTT event through the Python script.
