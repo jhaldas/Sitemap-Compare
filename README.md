@@ -35,7 +35,11 @@ If choosing to create your own body, still use {{Value1}} and {{Value2}} as your
 You will need to run these commands in your terminal in order to make sure everything is up to date and installed.
 ```
 sudo pip install requests
+```
+```
 sudo apt-get install python-dev libffi-dev libssl-dev
+```
+```
 sudo pip install --upgrade ndg-httpsclient
 ```
 ### Editing the code
