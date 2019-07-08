@@ -30,6 +30,7 @@ Missing Links:<br>
 {{Value2}}<br>
 ```
 If choosing to create your own body, still use {{Value1}} and {{Value2}} as your variables.
+
 9. Click "Finish"
 ### Terminal commands
 You will need to run these commands in your terminal in order to make sure everything is up to date and installed.
