@@ -6,7 +6,7 @@ The purpose for this script is to detect discrepancies between sitemaps.  This s
 
 # Usage
 This script was made using:
- - <a href="https://docs.python.org/3/library/idle.html">Idle</a>, and Version 3.7.3 of Python, which can both be downloaded <a href="https://www.python.org/downloads/">here</a>. Other versions of Python may work, but Python 3.7.3 is the only version I've tested with.
+ - <a href="https://docs.python.org/3/library/idle.html">Idle</a>, and Version 3.7.3 of Python, which can both be downloaded <a href="https://www.python.org/downloads/">here</a>. Other versions of Python may work, but Python 3.7.3 is the only version I've tested with.  I prefer Idle, but any Python IDE you're comfortable with should work.
  - I recommend downloading <a href="https://docs.conda.io/en/latest/miniconda.html">Miniconda</a>, as it comes with many useful libraries, and includes all the libraries used in this script.  Otherwise, you'll have to download the imported libraries included in the script on your own.
  - An <a href="https://ifttt.com/discover">IFTTT</a> account is required if you want to be emailed the list of discrepancies between sitemaps.  
  
