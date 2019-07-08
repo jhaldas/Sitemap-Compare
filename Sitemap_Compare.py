@@ -4,13 +4,7 @@ import glob, os
 import datetime, time
 import xml.etree.ElementTree as ET
 import itertools
-
-
-FILE_PATH = "/Users/jhaldas/Documents/Python/Logs/" # Set this to the path that you want your XML files to be saved in
-MAX_SITEMAPS = 5 # Set this to the maximum number of sitemaps you want saved at once
-URL = "https://www.cctvcamerapros.com/sitemap.xml" # Set this to the URL of the sitemap
-SEND_EMAIL = True # Set True if you want to be emailed, False if not.
-
+import config
 
 # Downloads the sitemap given a URL, a path to save the
 #sitemaps to, and the maximum amount of sitemaps at a time.
@@ -105,17 +99,17 @@ def XMLtoList(xml):
 
     return children
 
-# Emails you the differences of the 
+# Emails you the differences of the sitemaps, takes 2 strings as arguments
 def email_alert(first, second):
     print("sending email")
     report = {}
     report["value1"] = first
     report["value2"] = second
-    requests.post("https://maker.ifttt.com/trigger/XML_Notification/with/key/iyZRNsw8-r29Ro3xjaoMwcLxb-v2J4VxH08z_zO8NvD", data=report)  
+    requests.post("https://maker.ifttt.com/trigger/" + config.EVENT_NAME + "/with/key/" + config.KEY, data=report)  
 
 
-downloadXML(URL, FILE_PATH, MAX_SITEMAPS)
-compareXML(FILE_PATH, SEND_EMAIL)    
+downloadXML(config.URL, config.FILE_PATH, config.MAX_SITEMAPS)
+compareXML(config.FILE_PATH, config.SEND_EMAIL)    
 
 
 
