@@ -33,6 +33,7 @@ Missing Links:<br>
 If choosing to create your own body, still use {{Value1}} and {{Value2}} as your variables.
 
 9. Click "Finish"
+10. Go to "Settings" under your username and make sure you have URL Shortening toggled off.
 
 ### Terminal commands
 You will need to run these commands in your terminal in order to make sure everything is up to date and installed.
@@ -47,4 +48,9 @@ sudo pip install --upgrade ndg-httpsclient
 ```
 
 ### Editing the code
-This section will explain what you need to change in your code in order to run your IFTTT event through the Python script.
+You will need to go into the config.py file and change the variables.  All of the variables have comments next to them explaining what they are used for.
+
+#### For the key variable:
+In order to get your key, on IFTTT, you will need to go to My Applets -> Services -> Webhooks -> Settings -> URL: https://maker.ifttt.com/use/ThisIsYourKey
+
+Only copy the area where I have labled ThisIsYourKey and paste it into the KEY variable in config.py
