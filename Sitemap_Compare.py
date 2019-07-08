@@ -9,7 +9,7 @@ import itertools
 FILE_PATH = "/Users/jhaldas/Documents/Python/Logs/" # Set this to the path that you want your XML files to be saved in
 MAX_SITEMAPS = 5 # Set this to the maximum number of sitemaps you want saved at once
 URL = "https://www.cctvcamerapros.com/sitemap.xml" # Set this to the URL of the sitemap
-sendEmail = True # Set True if you want to be emailed, False if not.
+SEND_EMAIL = True # Set True if you want to be emailed, False if not.
 
 
 # Downloads the sitemap given a URL, a path to save the
@@ -115,7 +115,7 @@ def email_alert(first, second):
 
 
 downloadXML(URL, FILE_PATH, MAX_SITEMAPS)
-compareXML(FILE_PATH, sendEmail)    
+compareXML(FILE_PATH, SEND_EMAIL)    
 
 
 
