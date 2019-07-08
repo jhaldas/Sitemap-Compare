@@ -4,10 +4,10 @@ A Python script with methods to compare XML sitemaps.
 ## Table of Contents  
 [Description](#discription)
 [Usage](#usage) 
-- [Email Notifications](#emailnotif)
- - [Setting up event on IFTTT](#iftttevent)
- - [Terminal Commands](#terminalcommands)
- - [Editing the Code] (#editingcode)
+[Email Notifications](#emailnotif)
+[Setting up event on IFTTT](#iftttevent)
+[Terminal Commands](#terminalcommands)
+[Editing the Code] (#editingcode)
 
 <a name="discription"/>
 # Description
